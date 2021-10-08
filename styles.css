@@ -1,3 +1,5 @@
+/* Welcome to my css file */
+
 * {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -43,7 +45,8 @@ button {
 .flexbox {
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    min-width: 400px;
+    max-width: 1000px;
     flex-wrap: wrap;
     gap: 10px 10px;
 }
@@ -80,5 +83,10 @@ div > a:hover {
 div a {
     text-decoration: none;
     text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
 
