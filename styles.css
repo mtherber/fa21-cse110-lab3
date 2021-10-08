@@ -18,24 +18,26 @@ button {
     color: hsl(133, 100%, 22%);
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 400px 500px 400px;
-    grid-template-rows: 450px;
-    grid-template-areas:
-    "left center right"
-}
+@media (min-width: 1300px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 400px 500px 400px;
+        grid-template-rows: 450px;
+        grid-template-areas:
+        "left center right"
+    }
 
-.grid-item-1 {
-    grid-area: left;
-}
+    .grid-item-1 {
+        grid-area: left;
+    }
 
-.grid-item-2 {
-    grid-area: right;
-}
+    .grid-item-2 {
+        grid-area: right;
+    }
 
-.grid-item-3 {
-    grid-area: center;
+    .grid-item-3 {
+        grid-area: center;
+    }
 }
 
 .flexbox {
@@ -74,3 +76,4 @@ div > a:hover {
     background-color: gray;
     opacity: 50%;
 }
+
