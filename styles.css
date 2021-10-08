@@ -70,3 +70,7 @@ button {
     border: 5px black dotted;
 }
 
+div > a:hover {
+    background-color: gray;
+    opacity: 50%;
+}
