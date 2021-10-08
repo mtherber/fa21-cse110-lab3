@@ -46,4 +46,11 @@ button {
     gap: 0px;
 }
 
+div > a {
+    border-width: 0.5mm;
+    border-style: solid;
+    border-color: navy;
+    border-radius: 3mm;
+}
+
 
