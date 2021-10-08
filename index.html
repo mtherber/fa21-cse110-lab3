@@ -10,14 +10,16 @@
     <body>
         <main>
             <nav>
-                <a href="#attendance" nav_hover="no">Attendance</a>
-                <a href="#agenda" nav_hover="yes">Agenda</a>
-                <a href="#new-business" nav_hover="yes">New Business</a>
-                <a href="#unfinished-business" nav_hover="yes">Unfinished Business</a>
-                <a href="#check-ins" nav_hover="yes">Check ins</a>
-                <a href="#changelog" nav_hover="yes">Changelog</a>
-                <a href="#resources" nav_hover="yes">Resources</a>
-                <a href="#contact-us" nav_hover="no">Contact Us</a>
+                <div class="flexbox">
+                    <div><a href="#attendance" nav_hover="no">Attendance</a></div>
+                    <div><a href="#agenda" nav_hover="yes">Agenda</a></div>
+                    <div><a href="#new-business" nav_hover="yes">New Business</a></div>
+                    <div><a href="#unfinished-business" nav_hover="yes">Unfinished Business</a></div>
+                    <div><a href="#check-ins" nav_hover="yes">Check ins</a></div>
+                    <div><a href="#changelog" nav_hover="yes">Changelog</a></div>
+                    <div><a href="#resources" nav_hover="yes">Resources</a></div>
+                    <div><a href="#contact-us" nav_hover="no">Contact Us</a></div>
+                </div>
             </nav>
 
             <h1>Week 1 Group Meeting Notes</h1>
@@ -107,26 +109,34 @@
 
             <section id="resources">
                 <h2 class="section_header">Resources</h2>
-                <h3>Favicon</h3>
-                <p> We found a new group favicon.</p>
-                <img src="avocado.png" alt="avocado" width="100" height="100">
-                
-                <h3>New group mascot (video)</h3>
-                <p> I recorded an introduction to our new group mascot </p>
-                <video width=300 height=300 controls>
-                    <source src="avocadothevibe.mp4" type="video/mp4">
-                </video>
+                <div class="grid-container">
+                    <div class="grid-item grid-item-1">
+                        <h3>Favicon</h3>
+                        <p> We found a new group favicon.</p>
+                        <img src="avocado.png" alt="avocado" width="100" height="100">
+                    </div>
 
-                <h3> New group mascot (audio only) </h3>
-                <p> I recorded an introduction to our new group mascot </p>
-                <details>
-                    <summary> Blind teammate notice </summary>
-                    <p><em> This audio only clip is for blind teammates </em></p>
-                </details>
-                
-                <audio controls>
-                    <source src="avocadothevibe.mp3" type="audio/mp3">
-                </audio>
+                    <div class="grid-item grid-item-2">
+                        <h3>New group mascot (video)</h3>
+                        <p> I recorded an introduction to our new group mascot </p>
+                        <video width=300 height=300 controls>
+                            <source src="avocadothevibe.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="grid-item grid-item-3">
+                        <h3> New group mascot (audio only) </h3>
+                        <p> I recorded an introduction to our new group mascot </p>
+                        <details>
+                            <summary> Blind teammate notice </summary>
+                            <p><em> This audio only clip is for blind teammates </em></p>
+                        </details>
+                    
+                        <audio controls>
+                            <source src="avocadothevibe.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
             </section>
             
             <section id="contact-us">
