@@ -1,3 +1,19 @@
 * {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+#date {
+    color:red;
+}
+
+a:hover {
+    color:rgb(0, 0, 255);
+}
+
+strong, b {
+    color:#650079;
+}
+
+button {
+    color: hsl(133, 100%, 22%);
+}
