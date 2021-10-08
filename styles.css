@@ -77,3 +77,8 @@ div > a:hover {
     opacity: 50%;
 }
 
+div a {
+    text-decoration: none;
+    text-align: center;
+}
+
