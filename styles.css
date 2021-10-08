@@ -43,7 +43,7 @@ button {
     justify-content: space-between;
     width: 400px;
     flex-wrap: wrap;
-    gap: 0px;
+    gap: 10px 10px;
 }
 
 div > a {
@@ -51,6 +51,22 @@ div > a {
     border-style: solid;
     border-color: navy;
     border-radius: 3mm;
+    margin: auto auto auto auto;
 }
 
+[nav_hover] {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+button {
+    margin-left: 1.3cm;
+    margin-top: auto;
+    margin-bottom: 3mm;
+    margin-right: auto;
+    padding: auto auto 3mm 1.3cm;
+    border: 5px black dotted;
+}
 
