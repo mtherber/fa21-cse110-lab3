@@ -43,6 +43,7 @@ button {
 }
 
 .flexbox {
+    position: static;
     display: flex;
     justify-content: space-between;
     min-width: 400px;
@@ -88,6 +89,10 @@ div a {
 img {
     width: 10vw;
     height: 10vh;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
 }
 
 p.notice {
