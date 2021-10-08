@@ -5,25 +5,26 @@
         <meta charset="UTF-8">
         <meta name="author" content="Mitchell Herbert">
         <link rel="icon" href="avocado.png">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <main>
             <nav>
-                <a href="#attendance">Attendance</a>
-                <a href="#agenda">Agenda</a>
-                <a href="#new-business">New Business</a>
-                <a href="#unfinished-business">Unfinished Business</a>
-                <a href="#check-ins">Check ins</a>
-                <a href="#changelog">Changelog</a>
-                <a href="#resources">Resources</a>
-                <a href="#contact-us">Contact Us</a>
+                <a href="#attendance" nav_hover="no">Attendance</a>
+                <a href="#agenda" nav_hover="yes">Agenda</a>
+                <a href="#new-business" nav_hover="yes">New Business</a>
+                <a href="#unfinished-business" nav_hover="yes">Unfinished Business</a>
+                <a href="#check-ins" nav_hover="yes">Check ins</a>
+                <a href="#changelog" nav_hover="yes">Changelog</a>
+                <a href="#resources" nav_hover="yes">Resources</a>
+                <a href="#contact-us" nav_hover="no">Contact Us</a>
             </nav>
 
             <h1>Week 1 Group Meeting Notes</h1>
-            <h2>Date: October 3, 2021</h2>
+            <h2 id="date">Date: October 3, 2021</h2>
             
             <section id="attendance">
-                <h2>Attendance</h2>
+                <h2 class="section_header">Attendance</h2>
                 <ul>
                     <li>Mitchell</li>
                     <li>Steve</li>
@@ -32,7 +33,7 @@
             </section>
 
             <section id="agenda">
-                <h2>Agenda</h2>
+                <h2 class="section_header">Agenda</h2>
                 <ol>
                     <li>Discuss divs</li>
                     <li>Plan a new helper file</li>
@@ -44,7 +45,7 @@
             </section>
 
             <section id="unfinished-business">
-                <h2>Unfinished Business</h2>
+                <h2 class="section_header">Unfinished Business</h2>
                 <ul>
                     <li>Discuss how to progress with main.cpp</li>
                 </ul>
@@ -53,7 +54,7 @@
             <section>
 
             <section id="new-business">
-                <h2>New Business</h2>
+                <h2 class="section_header">New Business</h2>
                 <ul>
                     <li>No new business this week. We just need to understand whats others in the group are doing.</li>
                 </ul>
@@ -62,11 +63,11 @@
             </section>
 
             <section id="check-ins">
-                <h2>Check ins</h2>
+                <h2 class="section_header">Check ins</h2>
                 
                 <h3>Learning about divs</h3>
                 <p> We are just learning about divs. They're not too useful without styling. </p>
-                <div> Here's an example of a div. Without styling, its pretty much just a block of text. </div>
+                <div id="testdiv"> Here's an example of a div. Without styling, its pretty much just a block of text. </div>
 
                 <h3> Creating helper.js </h3>
                 <p> We planned a new file called <b>helper.js</b> that will contain helper functions. </p>
@@ -79,7 +80,7 @@
             </section>
 
             <section id="changelog">
-                <h2>Changelog</h2>
+                <h2 class="section_header">Changelog</h2>
                 
                 <h3>main.cpp</h3>
                 <p> We haven't done much on <b>main.cpp</b>, so there isn't anything to document yet.</p>
@@ -105,7 +106,7 @@
             </section>
 
             <section id="resources">
-                <h2>Resources</h2>
+                <h2 class="section_header">Resources</h2>
                 <h3>Favicon</h3>
                 <p> We found a new group favicon.</p>
                 <img src="avocado.png" alt="avocado" width="100" height="100">
@@ -129,7 +130,7 @@
             </section>
             
             <section id="contact-us">
-                <h2>Contact Us</h2>
+                <h2 class="section_header">Contact Us</h2>
                 <p> Please contact us with the form below if you have any questions about the meeting notes. </p>
 
                 <form>
