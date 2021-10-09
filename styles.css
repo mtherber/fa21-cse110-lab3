@@ -98,3 +98,15 @@ img {
 p.notice {
     font-size: 0.7em;
 }
+
+p ~ div {
+    background-color: yellow;
+}
+
+p + div {
+    display: inline-block;
+}
+
+h1:active {
+    background-color: yellow;
+}
